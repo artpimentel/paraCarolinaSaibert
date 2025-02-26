@@ -1,0 +1,52 @@
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}
+
+@keyframes pulse {
+    0% {
+    }
+    10% {
+        transform: scale(1.25);
+    }
+    30% {
+        transform: scale(1.10);
+    }
+    40% {
+        transform: scale(1.20);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+
+    }
+}
+
+@keyframes backgroundSlide {
+    0% {
+        background-image: url(./IMGs/Paisagem\ 1.jpeg);
+    }
+    30% {
+        background-image: url(./IMGs/Paisagem\ 1.jpeg);
+    }
+    33% {
+        background-image: url(./IMGs/Paisagem\ 2.jpeg);
+    }
+    63% {
+        background-image: url(./IMGs/Paisagem\ 2.jpeg);
+    }
+    66% {
+        background-image: url(./IMGs/Paisagem\ 3.jpeg);
+    }
+    96% {
+        background-image: url(./IMGs/Paisagem\ 3.jpeg);
+    }
+    100% {
+        background-image: url(./IMGs/Paisagem\ 1.jpeg);
+    }
+}
