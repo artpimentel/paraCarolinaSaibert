@@ -1,3 +1,36 @@
 #section3 {
-    background: darkred;
+    background: linear-gradient(180deg, lightsalmon 0%, salmon 100%);
 }
+
+#section3column1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+#section3column1 p {
+    font-size: 24px;
+}
+
+#section3column1 h2 {
+    font-size: 48px;
+}
+
+@media screen and (max-width: 720px) {
+    #section3column1 p {
+        font-size: 16px;
+    }
+    
+    #section3column1 h2 {
+        font-size: 36px;
+    }
+}
+
+#slide1-2 { background-image: url(./IMGs/Slider2/Carol\ 8.jpg); }
+#slide2-2 { background-image: url(./IMGs/Slider2/Carol\ 9.jpg); }
+#slide3-2 { background-image: url(./IMGs/Slider2/Carol\ 10.jpg); }
+#slide4-2 { background-image: url(./IMGs/Slider2/Carol\ 11.jpg); }
+#slide5-2 { background-image: url(./IMGs/Slider2/Carol\ 7.jpg); }
+#slide6-2 { background-image: url(./IMGs/Slider2/Carol\ 12.jpg); }

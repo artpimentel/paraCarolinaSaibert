@@ -1,0 +1,37 @@
+#section4 {
+    background: linear-gradient(180deg, salmon 0%, lightcoral 100%);
+}
+
+#section4line1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+#section4line1 p {
+    font-size: 24px;
+}
+
+#section4line1 h2 {
+    font-size: 64px;
+}
+
+@media screen and (max-width: 720px) {
+    #section4line1 p {
+        font-size: 16px;
+    }
+    
+    #section4line1 h2 {
+        font-size: 48px;
+    }
+}
+
+#slide1-3 { background-image: url(./IMGs/Slider3/Carol\ 18.jpeg); }
+#slide2-3 { background-image: url(./IMGs/Slider3/Carol\ 15.jpeg); }
+#slide3-3 { background-image: url(./IMGs/Slider3/Carol\ 13.jpeg); }
+#slide4-3 { background-image: url(./IMGs/Slider3/Carol\ 14.jpeg); }
+#slide5-3 { background-image: url(./IMGs/Slider3/Carol\ 16.jpeg); }
+#slide6-3 { background-image: url(./IMGs/Slider3/Carol\ 17.jpeg); }

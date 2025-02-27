@@ -7,9 +7,11 @@
 
     <link rel="stylesheet" href="./CSS/flaxboxes.css">
     <link rel="stylesheet" href="./CSS/animations.css">
+    <link rel="stylesheet" href="./CSS/slider.css">
     <link rel="stylesheet" href="./CSS/section1.css">
     <link rel="stylesheet" href="./CSS/section2.css">
     <link rel="stylesheet" href="./CSS/section3.css">
+    <link rel="stylesheet" href="./CSS/section4.css">
     <script src="./JS/scripts.js"></script>
 </head>
 <body>
@@ -22,7 +24,7 @@
                     <h1>OU</h1>
                 </div>
                 <div id="section1column2line2">
-                    <a id="heart" href="#section2"></a>
+                    <a href="#section2" id="heart" class="reveal"></a>
                 </div>
                 <div id="section1column2line3">
                     <h2>Meu Bem</h2>
@@ -33,39 +35,76 @@
             </div>
         </section>
         <section id="section2">
-<!--        
-            <div id="section2props">
-                <div id="propTop"></div>
-                <div id="propBot"></div>
-            </div>
--->
             <div id="section2column1">
-                <p >Juntos, já tivemos alguns</p>
-                <h2 >Momentos Incríveis</h2>
+                <p class="reveal">Juntos, já tivemos</p>
+                <h2 class="reveal">Muitos momentos</h2>
             </div>
             <div id="section2column2">
-                <div id="slider">
-                    <input type="radio" name="slider" id="s1" checked>
-                    <input type="radio" name="slider" id="s2">
-                    <input type="radio" name="slider" id="s3">
-                    <input type="radio" name="slider" id="s4">
-                    <input type="radio" name="slider" id="s5">
-                    <input type="radio" name="slider" id="s6">
-
-                    <label for="s1" id="slide1"></label>
-                    <label for="s2" id="slide2"></label>
-                    <label for="s3" id="slide3"></label>
-                    <label for="s4" id="slide4"></label>
-                    <label for="s5" id="slide5"></label>
-                    <label for="s6" id="slide6"></label>
+                <div id="slider1" class="slider reveal">
+                    <input type="radio" name="slider1" id="s1-1" checked>
+                    <input type="radio" name="slider1" id="s2-1">
+                    <input type="radio" name="slider1" id="s3-1">
+                    <input type="radio" name="slider1" id="s4-1">
+                    <input type="radio" name="slider1" id="s5-1">
+                    <input type="radio" name="slider1" id="s6-1">
+                    
+                    <label for="s1-1" id="slide1-1"></label>
+                    <label for="s2-1" id="slide2-1"></label>
+                    <label for="s3-1" id="slide3-1"></label>
+                    <label for="s4-1" id="slide4-1"></label>
+                    <label for="s5-1" id="slide5-1"></label>
+                    <label for="s6-1" id="slide6-1"></label>
                 </div>
             </div>
+            <a href="#section3" id="section2dBtn" class="dBtn"></a>
         </section>
         <section id="section3">
+            <div id="section3column1">
+                <p class="reveal">Acho que não fui calro...</p>
+                <h2 class="reveal">Muitos momentos</h2>
+            </div>
+            <div id="section3column2">
+                <div id="slider2" class="slider reveal">
+                    <input type="radio" name="slider2" id="s1-2" checked>
+                    <input type="radio" name="slider2" id="s2-2">
+                    <input type="radio" name="slider2" id="s3-2">
+                    <input type="radio" name="slider2" id="s4-2">
+                    <input type="radio" name="slider2" id="s5-2">
+                    <input type="radio" name="slider2" id="s6-2">
+                    
+                    <label for="s1-2" id="slide1-2"></label>
+                    <label for="s2-2" id="slide2-2"></label>
+                    <label for="s3-2" id="slide3-2"></label>
+                    <label for="s4-2" id="slide4-2"></label>
+                    <label for="s5-2" id="slide5-2"></label>
+                    <label for="s6-2" id="slide6-2"></label>
+                </div>    
+            </div>
 
+            <a href="#section4" id="section3dBtn" class="dBtn"></a>
         </section>
         <section id="section4">
-
+            <div id="section4line1">
+                <p class="reveal">Acho que ainda falta um pouco...</p>
+                <h2 class="reveal">Muitos momentos</h2>
+            </div>
+            <div id="section4line2">
+                <div id="slider3" class="slider reveal">
+                    <input type="radio" name="slider3" id="s1-3" checked>
+                    <input type="radio" name="slider3" id="s2-3">
+                    <input type="radio" name="slider3" id="s3-3">
+                    <input type="radio" name="slider3" id="s4-3">
+                    <input type="radio" name="slider3" id="s5-3">
+                    <input type="radio" name="slider3" id="s6-3">
+                    
+                    <label for="s1-3" id="slide1-3"></label>
+                    <label for="s2-3" id="slide2-3"></label>
+                    <label for="s3-3" id="slide3-3"></label>
+                    <label for="s4-3" id="slide4-3"></label>
+                    <label for="s5-3" id="slide5-3"></label>
+                    <label for="s6-3" id="slide6-3"></label>
+                </div>
+                </div>
         </section>
     </main>
 </body>

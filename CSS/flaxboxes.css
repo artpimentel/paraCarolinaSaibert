@@ -11,11 +11,22 @@ body {
     height: 400vh;
 }
 
-#section1, #section2, #section3, #section4 {
+#section1, #section2 {
     height: 100vh;
 
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    overflow: hidden;
+}
+
+#section3 {
+    height: 100vh;
+
+    display: flex;
+    flex-flow: row-reverse wrap;
     align-items: center;
     justify-content: space-between;
 
@@ -41,7 +52,7 @@ body {
     justify-content: center;
 }
 
-#section2column1, #section2column2 {
+#section2column1, #section2column2, #section3column1, #section3column2 {
     height: 100%;
     flex: 1 1 50%;
 
@@ -51,8 +62,32 @@ body {
     justify-content: center;
 }
 
+#section4 {
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+    overflow: hidden;
+}
+
+#section4line1 {
+    flex: 1 1 20%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#section4line2 {
+    flex: 1 1 80%;
+}
+
 @media screen and (max-width: 720px) {
-    #section2 {
+    #section2, #section3 {
         height: 100vh;
     
         display: flex;
@@ -61,7 +96,7 @@ body {
         justify-content: center;
     }
 
-    #section2column1, #section2column2 {
+    #section2column1, #section2column2,  #section3column1, #section3column2, #section4line1, #section4line2 {
         width: 100%;
         flex: 1 1 50%;
     
